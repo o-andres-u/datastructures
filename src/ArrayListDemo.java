@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class ArrayListDemo {
 
@@ -18,13 +19,19 @@ public class ArrayListDemo {
     }};
     // Second way to create ArrayList -> new ArrayList with add
 
+    System.out.println(names);
+
     // Deleting elements
-    names.remove("Luz Adriana");
-    names.remove("Diana");
+    names.removeAll(Arrays.asList("Luz Adriana"));
+    System.out.println(names.contains("Diana"));
 
-    // names.remove(0);
-    // names.remove(0);
+    names.remove(0);
+    names.remove(0);
 
+    names.add("Andres");
+    System.out.println(names);
+
+    names.add(3, "Sebas");
     System.out.println(names); // Prints in the order that were added
   }
 

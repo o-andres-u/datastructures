@@ -13,14 +13,19 @@ public class StackDemo {
     names.push("Juan Pablo");
     names.push("Erick");
     names.push("Oscar");
-    names.push("Luz Adriana");
-    names.push("Diana");
+    //names.push("Luz Adriana");
+    //names.push("Diana");
+
+    System.out.println(names);
 
     // Deleting elements
-    names.pop();
+    System.out.println(names.pop());
     names.pop();
 
     System.out.println(names);
+    System.out.println(names.peek());
+    System.out.println(names);
+    System.out.println(names.firstElement());
   }
 
 }

@@ -7,7 +7,7 @@ public class ArrayDemo {
 
     // Deleting elements
     names[9] = "";
-    names[10] = "";
+    names[10] = null;
 
     for (String name: names) {
       System.out.println(name);
