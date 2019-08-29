@@ -16,6 +16,8 @@ public class VectorDemo {
     names.add("Luz Adriana");
     names.add("Diana");
 
+    names.clear();
+
     System.out.println(names);
   }
 

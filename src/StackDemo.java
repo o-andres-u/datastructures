@@ -15,8 +15,24 @@ public class StackDemo {
     names.push("Oscar");
     names.push("Luz Adriana");
     names.push("Diana");
+    names.push(null);
 
     System.out.println(names);
+
+    names.pop();
+    System.out.println(names);
+
+    names.pop();
+    names.pop();
+    names.pop();
+    names.pop();
+    names.pop();
+    names.pop();
+    System.out.println(names);
+
+    names.clear();
+    System.out.println(names);
+
   }
 
 }

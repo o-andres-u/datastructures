@@ -15,6 +15,7 @@ public class LinkedListDemo {
     names.add("Oscar");
     names.add("Luz Adriana");
     names.add("Diana");
+    names.add(null);
     // Second way to create LinkedList -> new LinkedList() {{ add("Name"); }};
 
     System.out.println(names);
