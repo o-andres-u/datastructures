@@ -1,10 +1,9 @@
 import java.util.ArrayList;
-import java.util.List;
 
 public class ArrayListDemo {
 
   public static void main(String[] args) {
-    List<String> names = new ArrayList<String>(){{
+    ArrayList<String> names = new ArrayList<String>(){{
       add("Luz Adriana");
       add("Diana");
       add("Marlon");
