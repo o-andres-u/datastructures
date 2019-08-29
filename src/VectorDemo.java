@@ -16,6 +16,13 @@ public class VectorDemo {
     names.add("Luz Adriana");
     names.add("Diana");
 
+    // Deleting elements
+    names.remove("Luz Adriana");
+    names.remove("Diana");
+
+    // names.remove(0);
+    // names.remove(0);
+
     System.out.println(names);
   }
 

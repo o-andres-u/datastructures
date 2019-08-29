@@ -5,6 +5,10 @@ public class ArrayDemo {
     // Second way to declare arrays -> new String[size]
     // Third way to declare arrays -> new String[] { ... elements ... }
 
+    // Deleting elements
+    names[9] = "";
+    names[10] = "";
+
     for (String name: names) {
       System.out.println(name);
     }

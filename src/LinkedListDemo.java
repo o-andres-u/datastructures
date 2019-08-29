@@ -17,6 +17,13 @@ public class LinkedListDemo {
     names.add("Diana");
     // Second way to create LinkedList -> new LinkedList() {{ add("Name"); }};
 
+    // Deleting elements
+    names.remove("Luz Adriana");
+    names.remove("Diana");
+
+    // names.remove(0);
+    // names.remove(0);
+
     System.out.println(names);
   }
 

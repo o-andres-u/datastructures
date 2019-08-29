@@ -16,6 +16,10 @@ public class StackDemo {
     names.push("Luz Adriana");
     names.push("Diana");
 
+    // Deleting elements
+    names.pop();
+    names.pop();
+
     System.out.println(names);
   }
 

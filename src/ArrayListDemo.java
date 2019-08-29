@@ -18,6 +18,13 @@ public class ArrayListDemo {
     }};
     // Second way to create ArrayList -> new ArrayList with add
 
+    // Deleting elements
+    names.remove("Luz Adriana");
+    names.remove("Diana");
+
+    // names.remove(0);
+    // names.remove(0);
+
     System.out.println(names); // Prints in the order that were added
   }
 
