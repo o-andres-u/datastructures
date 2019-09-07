@@ -1,9 +1,11 @@
-import java.util.LinkedList;
+package list;
 
-public class LinkedListDemo {
+import java.util.Vector;
+
+public class VectorDemo {
 
   public static void main(String[] args) {
-    LinkedList<String> names = new LinkedList<>();
+    Vector<String> names = new Vector<>();
     names.add("Luz Adriana");
     names.add("Diana");
     names.add("Marlon");
@@ -15,8 +17,8 @@ public class LinkedListDemo {
     names.add("Oscar");
     names.add("Luz Adriana");
     names.add("Diana");
-    names.add(null);
-    // Second way to create LinkedList -> new LinkedList() {{ add("Name"); }};
+
+    names.clear();
 
     System.out.println(names);
   }
