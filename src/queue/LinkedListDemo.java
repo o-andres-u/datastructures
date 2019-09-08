@@ -18,6 +18,7 @@ public class LinkedListDemo {
         // Ice giants.
         planets.offer("Uranus");
         planets.offer("Neptune");
+        planets.add(null);
         System.out.println(planets);
 
         System.out.println("The sun is about to die, then the first planet will be burned. Preparing to destroy: " + planets.peek());
