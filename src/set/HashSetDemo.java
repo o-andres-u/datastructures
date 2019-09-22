@@ -2,7 +2,6 @@ package set;
 
 import java.util.HashSet;
 import java.util.Iterator;
-import java.util.Spliterator;
 
 /**
  * <p>{@link java.util.HashSet} class does not guarantee the constant order of the elements over time.
