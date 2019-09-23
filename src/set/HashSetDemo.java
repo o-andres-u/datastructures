@@ -28,6 +28,9 @@ public class HashSetDemo {
         chess.add("Knights");
         chess.add("Rooks");
         chess.add("Pawns");
+
+        System.out.println("King".hashCode());
+
         System.out.println("Printing chess pieces: " + chess);
 
         Iterator<String> iterator = chess.iterator();
@@ -41,10 +44,13 @@ public class HashSetDemo {
         System.out.println(chess);
 
         System.out.println("\nRemoving pieces from hashtable...");
-        chess.remove("Queen");
+        System.out.println(chess.remove("Queen"));
         System.out.println(chess);
 
         System.out.println("\nDoes it contain a king? " + chess.contains("king"));
+
+        System.out.println(chess.remove("Queen"));
+        System.out.println(chess.add("King"));
     }
 
 }
